@@ -8,6 +8,10 @@ public abstract class FiguraGeometrica_AMB {
 		this.tipoFigura = tipoFigura;
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+	
 	public abstract double area();
 	
 	public abstract double perimetro();
