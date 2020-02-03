@@ -6,6 +6,9 @@ public class Circulo_AMB extends FiguraGeometrica_AMB {
 	
 	public Circulo_AMB(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0) {
+			r*=-1;
+		}
 		radio = r;
 	}
 
